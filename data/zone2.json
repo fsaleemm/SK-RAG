@@ -1,0 +1,47 @@
+{
+    "from-stations": ["Grand Central/Harlem-125th Street"],
+    "zoneNumber": "2",
+    "to-stations": ["Fordham"],
+    "fares": {
+        "adult": {
+            "peak": {
+                "monthly": 199.75,
+                "weekly": 71.00,
+                "10-trip": 100.00,
+                "one-way": 10.00,
+                "onboard-fares": 16.00,
+                "LIRR-combo": 15.50
+            },
+            "off-peak": {
+                "monthly": 199.75,
+                "weekly": 71.00,
+                "10-trip": 63.75,
+                "one-way": 7.50,
+                "onboard-fares": 14.00,
+                "LIRR-combo": 15.50
+            }
+        },
+        "senior-Disabled-Medicare": {
+            "peak": {
+                "10-trip": 100.00,
+                "one-way": 10.00
+            },
+            "offPeak": {
+                "10-trip": 50.00,
+                "one-way": 5.00
+            }
+        },
+        "child": {
+			"peak": {
+                "family-fare": 1.00,
+                "one-way": 5.00,
+				"onboard-fares": 11.00
+            },
+            "offPeak": {
+                "10-trip": 50.00,
+                "one-way": 5.00,
+				"onboard-fares": 10.00
+            }
+        }
+    }
+}

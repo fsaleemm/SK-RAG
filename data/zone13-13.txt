@@ -1,0 +1,37 @@
+{
+    "from-stations": ["Larchmont", "Mamaroneck", "Harrison"],
+    "zoneNumber": "13 to 13",
+    "to-stations": [ "Larchmont", "Mamaroneck", "Harrison"],
+    "fares": {
+        "adult": {
+            "peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 27.75,
+                "one-way": 3.25,
+                "onboard-fares": 9.00
+            },
+            "off-peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 27.75,
+                "one-way": 3.25,
+                "onboard-fares": 9.00
+            }
+        },
+        "senior-Disabled-Medicare": {
+            "peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 15.00,
+                "one-way": 3.25
+            },
+            "off-Peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 15.00,
+                "one-way": 1.50
+            }
+        }
+    }
+}

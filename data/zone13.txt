@@ -1,0 +1,55 @@
+{
+    "from-stations": ["Grand Central/Harlem-125th Street"],
+    "zoneNumber": "13",
+    "to-stations": [ "Larchmont", "Mamaroneck", "Harrison"],
+    "fares": {
+        "adult": {
+            "peak": {
+                "monthly": 260.00,
+                "weekly": 92.50,
+                "10-trip": 132.50,
+                "one-way": 13.25,
+                "onboard-fares": 19.00,
+                "LIRR-combo": 17.75
+            },
+            "off-peak": {
+                "monthly": 260.00,
+                "weekly": 92.50,
+                "10-trip": 83.00,
+                "one-way": 9.75,
+                "onboard-fares": 16.00,
+                "LIRR-combo": 17.75
+            }
+        },
+        "senior-Disabled-Medicare": {
+            "peak": {
+                "monthly": 260.00,
+                "weekly": 92.50,
+                "10-trip": 132.50,
+                "one-way": 13.25
+            },
+            "off-Peak": {
+                "monthly": 260.00,
+                "weekly": 92.50,
+                "10-trip": 65.00,
+                "one-way": 6.50
+            }
+        },
+        "child": {
+			"peak": {
+                "monthly": 260.00,
+                "weekly": 92.50,
+                "family-fare": 1.00,
+                "one-way": 6.50,
+				"onboard-fares": 13.00
+            },
+            "off-Peak": {
+                "monthly": 260.00,
+                "weekly": 92.50,
+                "family-fare": 1.00,
+                "one-way": 5.00,
+				"onboard-fares": 11.00
+            }
+        }
+    }
+}

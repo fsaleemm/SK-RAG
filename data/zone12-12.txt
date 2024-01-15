@@ -1,0 +1,37 @@
+{
+    "from-stations": ["Mt. Vernon East", "Pelham", "New Rochelle"],
+    "zoneNumber": "12 to 12",
+    "to-stations": ["Mt. Vernon East", "Pelham", "New Rochelle"],
+    "fares": {
+        "adult": {
+            "peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 27.75,
+                "one-way": 3.25,
+                "onboard-fares": 9.00
+            },
+            "off-peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 27.75,
+                "one-way": 3.25,
+                "onboard-fares": 9.00
+            }
+        },
+        "senior-Disabled-Medicare": {
+            "peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 15.00,
+                "one-way": 3.25
+            },
+            "off-Peak": {
+                "monthly": 67.50,
+                "weekly": 23.25,
+                "10-trip": 15.00,
+                "one-way": 1.50
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "from-stations": ["Grand Central/Harlem-125th Street"],
+    "zoneNumber": "12",
+    "to-stations": ["Mt. Vernon East", "Pelham", "New Rochelle"],
+    "fares": {
+        "adult": {
+            "peak": {
+                "monthly": 233.00,
+                "weekly": 83.00,
+                "10-trip": 117.50,
+                "one-way": 11.75,
+                "onboard-fares": 18.00,
+                "LIRR-combo": 16.75
+            },
+            "off-peak": {
+                "monthly": 233.00,
+                "weekly": 83.00,
+                "10-trip": 74.50,
+                "one-way": 8.75,
+                "onboard-fares": 15.00,
+                "LIRR-combo": 16.75
+            }
+        },
+        "senior-Disabled-Medicare": {
+            "peak": {
+                "monthly": 233.00,
+                "weekly": 83.00,
+                "10-trip": 117.50,
+                "one-way": 11.75
+            },
+            "off-Peak": {
+                "monthly": 233.00,
+                "weekly": 83.00,
+                "10-trip": 57.50,
+                "one-way": 5.75
+            }
+        },
+        "child": {
+			"peak": {
+                "monthly": 233.00,
+                "weekly": 83.00,
+                "family-fare": 1.00,
+                "one-way": $5.75,
+				"onboard-fares": 12.00
+            },
+            "off-Peak": {
+                "monthly": 233.00,
+                "weekly": 83.00,
+                "family-fare": 1.00,
+                "one-way": 4.50,
+				"onboard-fares": 11.00
+            }
+        }
+    }
+}
